@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Project Details</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+.bg-animated { background: radial-gradient(circle at 20% 20%, #111 0%, #000 100%); }
+.card { backdrop-filter: blur(20px); background: rgba(255,255,255,0.08); }
+</style>
+</head>
+<body class="bg-animated text-white">
+
+<!-- Navbar -->
+<nav class="backdrop-blur-lg bg-white/10 border-b border-white/20 py-4">
+  <div class="container mx-auto max-w-[1200px] flex justify-between items-center px-6">
+    <h2 class="text-2xl font-bold text-cyan-400">FYP</h2>
+    <ul class="flex gap-8 text-lg font-medium">
+      <li><a href="index.html" class="hover:text-cyan-400">Home</a></li>
+      <li><a href="project-details.html" class="hover:text-cyan-400">Project</a></li>
+      <li><a href="mentors.html" class="hover:text-cyan-400">Mentors</a></li>
+      <li><a href="team-members.html" class="hover:text-cyan-400">Team</a></li>
+    </ul>
+  </div>
+</nav>
+
+<section class="container mx-auto max-w-[1100px] text-center mt-20 px-6">
+  <h1 class="text-5xl font-bold mb-6">Project Details</h1>
+
+  <h2 class="text-3xl font-semibold mt-10">Doge</h2>
+  <img src="https://i.ibb.co/NsrCdf6/doge.png" class="mx-auto mt-4 w-[300px] rounded-2xl shadow-xl">
+
+  <div class="card border border-white/20 mt-12 p-8 rounded-2xl max-w-[700px] mx-auto">
+    <h3 class="text-2xl font-semibold mb-3">Circuit GitHub Repository</h3>
+    <a class="text-cyan-400 underline block text-lg" href="#">https://github.com/your-project-link</a>
+  </div>
+</section>
+</body>
+</html>
